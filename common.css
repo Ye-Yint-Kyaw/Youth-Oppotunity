@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+ul{
+    margin-bottom: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+.toast-container {
+    width: 200px;
+    height: 75px;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    z-index: 1060; /* Higher than other elements */
+}
+.toast-header {
+    background-color: #11ca00;
+    color: #FFF;
+    text-align: center;
+    border-radius: 0;
+    border: 0;
+    padding: 18px 15px;
+}
+th, .dt-type-numeric{
+    text-align: left !important;
+}
+.body-content{
+    margin-top: 100px;
+}
+
+.dt-type-date{
+    text-align: left !important;
+}
+
+
+
+
+
+/*============================ my account ===========================*/
+
+.acc-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.acc {
+    width: 100%;
+    /* background: #fff; */
+    /* border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 6px solid #cfcfcf;
+}
+
+.details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #11ca00;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.detail-item i {
+    color: #11ca00;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.detail-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.detail-item strong {
+    color: #007BFF;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn.cancel {
+    background: #ff4d4d;
+    color: #fff;
+}
+
+.btn.cancel:hover {
+    background: #cc0000;
+}
+
+.btn.edit {
+    background: #11ca00;
+    color: #fff;
+}
+
+.btn.edit:hover {
+    background: #0da600;
+}
+
+
